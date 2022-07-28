@@ -1,0 +1,64 @@
+.conf-info{
+	/*padding: 10px 0 10px 30px;*/
+	margin: 30px 0 30px 30px;
+}
+.conf-info-text{
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	margin-top: 4px;
+	vertical-align: center;
+}
+.conf-info-button{
+	float: right;
+	margin-right: 20px;
+}
+.new-conf{
+	margin-left: 20px;
+}
+
+.info{
+	margin-left: 30px;
+}
+
+.info p{
+	font-size: 20px;
+}
+.but-group{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.but-group a{
+	margin-left: 10px;
+}
+.create-form{
+	margin-left: 30px;
+}
+.create-form label{
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 15%;
+	font-size: 20px;
+}
+.create-form input{
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+}
+.map{
+	margin-top: 20px;
+	width: 30%;
+	height:250px;
+}
+.select-country{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 230px;
+	height: 40px;
+	font-size: 20px;
+}
+.but-create{
+	margin-right: 20px;
+}
+
+
