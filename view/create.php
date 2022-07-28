@@ -11,7 +11,7 @@
 	<body>
 		<h2>Створити нову конференцію</h2>
 		<form action = "/conferences/create/save" method = "post" class = "create-form">
-			<label class="form-label ">Title</label><input type = "text" name = "title" minlength="2" maxlength = "255" required="required"><br>
+			<label class="form-label ">Назва:</label><input type = "text" name = "title" minlength="2" maxlength = "255" required="required"><br>
 			<label>Дата і час проведення:</label><input type = "datetime-local" name = "data" required="required" min = "<?php echo date('Y-m-d H:i'); ?>"><br>
 			<label>Широта:</label><input type = "number" name = "latitude" id = "lat-span" onchange = "setCoord()" required="required" step="0.000000000000001" min = "-85" max = "85"><br>
 			<label>Довгота:</label><input type = "number" name = "longitude" id = "lng-span" onchange = "setCoord()" required="required" step="0.000000000000001" min = "-150" max = "175"><br>
