@@ -10,6 +10,6 @@
 		{
 			$this->pageData['title'] = "Start";
 			$this->view->render($this->pageTpl, $this->pageData);
-			//header("Location: /conferences");
+			header("Location: /conferences");
 		}
 	}
