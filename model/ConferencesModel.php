@@ -6,6 +6,7 @@
 			for($i = 0;$i < count($row);$i++){
 				$row[$i]["data"] = str_replace('T',' ',$row[$i]["data"]);
 			}
+			print_r(var_dump($row));
 			return $row;
 		}
 	}
