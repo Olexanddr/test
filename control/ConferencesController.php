@@ -16,8 +16,5 @@
 			$this->pageData = $this->model->getTitles();
 			$this->view->render($this->pageTpl, $this->pageData);
 		}
-		public function about(){
-			$id = $_GET;
-		}
 
 	}
